@@ -1,0 +1,46 @@
+{
+  "name": "is-current-month",
+  "description": "returns a 'true' boolean if date is current month",
+  "version": "1.0.2",
+  "homepage": "https://github.com/TJC-js/is-current-month",
+  "author": "Tim Cane (https://github.com/timcane)",
+  "contributors": [
+    "Tim Cane (https://github.com/timcane)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TJC-js/is-current-month.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TJC-js/is-current-month/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "is-current-month",
+    "date"
+  ],
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "related": {},
+    "lint": {
+      "reflinks": false
+    }
+  },
+  "dependencies": {
+    "is-a-date": "^1.0.1"
+  }
+}
